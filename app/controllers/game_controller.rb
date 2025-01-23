@@ -14,7 +14,7 @@ class GameController < ApplicationController
       @result = 1 # Win
     end
   
-    render({ template: "game_templates/games" })
+    render({ template: "game_templates/game" })
   end
   
 
@@ -33,7 +33,7 @@ class GameController < ApplicationController
       @result = 1 # Win
     end
   
-    render({ template: "game_templates/games" })
+    render({ template: "game_templates/game" })
   end
   
 
@@ -52,7 +52,7 @@ class GameController < ApplicationController
       @result = 1 # Win
     end
   
-    render({ template: "game_templates/games" })
+    render({ template: "game_templates/game" })
   end
   
   def move_name(move)
